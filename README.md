@@ -36,3 +36,20 @@ cd nodejs
 npm install
 node server.js
 # Открыть http://localhost:3000
+cd python
+pip install -r requirements.txt
+python main.py
+# Открыть http://localhost:8000
+cd python
+pip install -r requirements.txt
+python main.py
+# Открыть http://localhost:8000
+cd go
+go mod tidy
+go run main.go
+# Открыть http://localhost:8080
+{"type": "join", "nickname": "Alex", "room": "general"}
+{"type": "message", "text": "Всем привет!"}
+{"type": "history", "messages": [...]}
+{"type": "user_list", "users": ["Alex", "Jane"]}
+{"type": "message", "nickname": "Alex", "text": "Всем привет!", "timestamp": 123456}
